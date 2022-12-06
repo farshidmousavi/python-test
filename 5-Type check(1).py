@@ -1,4 +1,4 @@
-#Before check senior answer, write your oun code
+#Before check another answer, write your oun code
 #Then check another solution
 def only_ints(a,b):
     try:
