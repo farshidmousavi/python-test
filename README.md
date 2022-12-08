@@ -47,8 +47,55 @@ Write a function named <code>only_ints</code> that takes two parameters. Your fu
 
 For example, <code>calling only_ints(1, 2)</code> should return <code>True</code>, while calling <code>only_ints("a", 1)</code> should return <code>False</code>.
 
+<h2>6- Double letters</h2>
+The goal of this challenge is to analyze a string to check if it contains two of the same letter in a row. For example, the string <code>"hello"</code> has l twice in a row, while the string <code>"nono"</code> does not have two identical letters in a row.
+
+Define a function named <code>double_letters</code> that takes a single parameter. The parameter is a string. Your function must return <code>True</code> if there are two identical letters in a row in the string, and <code>False</code> otherwise.
+
+<h2>7- Adding and removing dots</h2>
+Write a function named <code>add_dots</code> that takes a string and adds <code>"."</code> in between each letter. For example, calling <code>add_dots("test")</code> should return the string <code>"t.e.s.t"</code>.
+
+Then, below the <code>add_dots</code> function, write another function named <code>remove_dots</code> that removes all dots from a string. For example, calling <code>remove_dots("t.e.s.t")</code> should return <code>"test"</code>.
+
+If both functions are correct, calling <code>remove_dots(add_dots(string))</code> should return back the original string for any string.
+
+(You may assume that the input to <code>add_dots</code> does not itself contain any dots.)
+
+
+<h2>8- Counting syllables</h2>
+Define a function named <code>count</code> that takes a single parameter. The parameter is a string. The string will contain a single word divided into syllables by hyphens, such as these:
+
+<pro>"ho-tel"
+    "cat"
+    "met-a-phor"
+    "ter-min-a-tor"
+    Your function should count the number of syllables and return it.
+</pro>
+
+For example, the call <code>count("ho-tel")</code> should return <code>2</code>.
+
+<h2>9- Anagrams</h2>
+Two strings are anagrams if you can make one from the other by rearranging the letters.
+
+Write a function named <code>is_anagram</code> that takes two strings as its parameters. Your function should return <code>True</code> if the strings are anagrams, and <code>False</code> otherwise.
+
+For example, the call <code>is_anagram("typhoon", "opython")</code> should return True while the call <code>is_anagram("Alice", "Bob")</code> should return <code>False</code>.
+
+<h2>10- Flatten a list</h2>
+Write a function that takes a list of lists and flattens it into a one-dimensional list.
+
+Name your function <code>flatten</code>. It should take a single parameter and return a list.
+
+For example, calling:
+
+<code>flatten([[1, 2], [3, 4]])</code>
+
+Should return the list:
+
+<code>[1, 2, 3, 4]</code>
 
 
 
 
+___________________________________________________________________________________________________
 <br><h6>Source is pythonprinciples</h6></br>
